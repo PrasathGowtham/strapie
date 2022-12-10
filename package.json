@@ -28,7 +28,6 @@
     ".github/actions/*"
   ],
   "scripts": {
-    "start": "npm start",
     "prepare": "husky install",
     "setup": "yarn && yarn build",
     "watch": "lerna run --stream watch --no-private",
